@@ -1,6 +1,32 @@
+var myString =  "I am a front-end webDeveloper with experience of Developing & Designing highend user friendly Website/Web Application/Mobile Application/UI Design & THANK YOU FOR VISITING MY PAGE ";
+    var myArray = myString.split("");
+    var loopTimer;
+
+    function frameLooper (){
+    
+        if (myArray.length > 0){
+        document.getElementById('demo').innerHTML += myArray.shift();
+        }else{
+        clearTimeout(loopTimer);
+    }
+    loopTimer = setTimeout ( "frameLooper ()",50);
+}
+
+time.addEventListener("animationend",function(){
+     
+    window.onload = frameLooper(); 
+ });
+
+
+
+
+
 $(function(){
     document.getElementById('time').innerHTML= Date();
     
+    $('#fbutton').click(function(){
+        window.alert('PLEASE FILL UP THE FORM AND HIT SUBMIT');
+    })
     $('#div1,#div2,#div3,#div4,#div5,#div6,#div7,#div8,#div9').mouseover(function(){
         
     $(this).translateX(.5);
