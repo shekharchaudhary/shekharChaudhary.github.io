@@ -5,31 +5,37 @@ html {
 	-ms-text-size-adjust:100%;
     -o-text-size-adjust:100%;
     transition:all .3s ease-in-out;
-
+    background-color: #FBF7F7;
 }
 
 body {
 	margin: 0;
-    background-color: bisque;
+    padding: 0;
+
+    
 }
 nav{
-    height: 70px;
-    width: 100%;
-    background-color:#272424; 
+    height:50px;
+    width: 100%; 
     position: fixed;
     transition:all ease .3s;
     text-align: center;
     z-index: 100;
+    border-bottom: 1px solid silver;
+    background-color: bisque;
 }
 nav:first-child{
-    color: white;
+    color: #02C39A;
 }
 
 nav li a{
-    color: white;
+    color: #000000;
 }
 nav li a:hover{
-    background-color: black;
+    color:#02C39A ;
+}
+.div p {
+     filter: drop-shadow(0px 5px 5px black);
 }
 
 
@@ -51,13 +57,16 @@ nav li a:hover{
     border-top-right-radius: 3px;
     grid-column-start: 1;
     grid-column-end: 7;
-    background-color:;
-    color: burlywood;
-    height: 339px;
-    background-image: url(q.jpg);
-    background-size: cover;
-    background-position: center;
-   
+    color: #000;
+    height: 309px;  
+}
+#demo{
+    font-size: 12px;
+    color:whte;
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+    filter: drop-shadow(0px 3px 10px black);
 }
 img{
     height: 143px;
@@ -65,16 +74,19 @@ img{
     opacity: .5;
     z-index: -1;
     animation: bounceInDown 4s ease;
+    
 
 }
 .site-title{
-    color:white;
+    color:#000;
     font-size: 14px;
     animation: zoomIn 6s ease;
+    filter: drop-shadow(0px 3px 10px black);
  }
 .site-description{
     color: fuchsia;
     font-size: 10px;
+    filter: drop-shadow(0px 3px 10px black);
     
 }
     
@@ -82,16 +94,16 @@ img{
 #date{
     grid-column-start: 1;
     grid-column-end: 7;
-    background-color: #0C2233;
-    border-radius: 10px;
+    border-bottom: 1px dotted black;
     
 }
 #time{
-    background-color: #0C2233;
-    font-size: 14px;
+    font-size: 20px;
     line-height: 30px;
-    color: white;
-     animation: zoomIn 3s ease;
+    color:orangered;
+    z-index: 2;
+    animation: zoomIn 3s ease;
+    filter: drop-shadow(0px 4px 2px black);
 }
 #main{
     grid-column-start: 1;
@@ -113,8 +125,8 @@ img{
     font-size: 10px;
     color:burlywood;
     height: 141px;
-    line-height: 310px;
-    border-bottom: 50px solid #453C38; 
+    line-height: 290px;
+    border-bottom: 30px solid #453C38; 
     animation: bounceInLeft 1s ease;
 }
 
@@ -128,8 +140,8 @@ img{
     font-size: 10px;
     color:burlywood;
     height: 141px;
-    line-height: 310px;
-    border-bottom: 50px solid #0C2E33; 
+    line-height: 290px;
+    border-bottom: 30px solid #453C38;  
     animation: bounceInLeft 2s ease;
     
 
@@ -144,8 +156,8 @@ img{
     font-size: 10px;
     color:burlywood;
     height: 141px;
-    line-height: 310px;
-    border-bottom: 50px solid #475762 ; 
+    line-height: 290px;
+    border-bottom: 30px solid #453C38; 
     animation: bounceInLeft 3s ease;
     
 
@@ -160,8 +172,8 @@ img{
     font-size: 10px;
     color:burlywood;
     height: 141px;
-    line-height: 310px;
-    border-bottom: 50px solid #272427; 
+    line-height: 290px;
+    border-bottom: 30px solid #453C38; 
     animation: bounceInLeft 4s ease;
     
 
@@ -176,8 +188,9 @@ img{
     font-size: 10px;
     color:burlywood;
     height: 141px;
-    line-height: 310px;
-    border-bottom: 50px solid #272427; 
+    line-height: 290px;
+    border-bottom: 30px solid #453C38; 
+    animation: bounceInRight 5s ease;
 }
 #div6{
      border-top-left-radius: 5px;
@@ -189,8 +202,9 @@ img{
     font-size: 10px;
     color:burlywood;
     height: 141px;
-    line-height: 310px;
-    border-bottom: 50px solid #272427; 
+    line-height: 290px;
+    border-bottom: 30px solid #453C38; 
+    animation: bounceInRight 4s ease;
 }
 #div7{
      border-top-left-radius: 5px;
@@ -202,8 +216,9 @@ img{
     font-size: 10px;
     color:burlywood;
     height: 141px;
-    line-height: 310px;
-    border-bottom: 50px solid #8F7B60; 
+    line-height: 290px;
+    border-bottom: 30px solid #453C38; 
+    animation: bounceInRight 3s ease;
 }
 #div8{
      border-top-left-radius: 5px;
@@ -215,8 +230,9 @@ img{
     font-size: 10px;
     color:burlywood;
     height: 141px;
-    line-height: 310px;
-    border-bottom: 50px solid #5C715E; 
+    line-height: 290px;
+    border-bottom: 30px solid #453C38; 
+    animation: bounceInRight 2s ease;
 }
 #div9{
      border-top-left-radius: 5px;
@@ -228,8 +244,8 @@ img{
     font-size: 10px;
     color:burlywood;
     height: 141px;
-    line-height: 310px;
-    border-bottom: 50px solid #272427; 
+   line-height: 290px;
+    border-bottom: 30px solid #453C38; 
 }
 #div10{
      border-top-left-radius: 5px;
@@ -241,8 +257,8 @@ img{
     font-size: 10px;
     color:burlywood;
     height: 141px;
-    line-height: 310px;
-    border-bottom: 50px solid #272427; 
+    line-height: 290px;
+    border-bottom: 30px solid #453C38; 
 }
 
 #div11{
@@ -255,8 +271,8 @@ img{
     font-size: 10px;
     color:burlywood;
     height: 141px;
-    line-height: 310px;
-    border-bottom: 50px solid #272427; 
+    line-height: 290px;
+    border-bottom: 30px solid #453C38; 
 }
 
 #div12{
@@ -269,8 +285,8 @@ img{
     font-size: 10px;
     color:burlywood;
     height: 141px;
-    line-height: 310px;
-    border-bottom: 50px solid #272427; 
+    line-height: 290px;
+    border-bottom: 30px solid #453C38; 
 }
 #aside{
     grid-column-start: 1;
@@ -287,39 +303,61 @@ img{
 .slideshow-container{
     background-color: #272427;
 }
-.slideshow-container1{
-    background-color: #272427;
+h2{
+    filter: drop-shadow(0px 2px 3px black);
 }
-#ha{
+.slideshow-container1{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr ;
+    grid-gap:10px;
+    color: black;
     
 }
-#ta{
-    height: 50px; 
-    cursor: pointer;
-    margin-bottom: 1px dotted black;
+
+
+.show1{
+    border: 1px solid black;
+    
 }
-.mySlides{
-    background-color: #51710A;
-    height: 50px; 
-    cursor: pointer;
-    margin-bottom: 1px dotted black;
+.show2{
+    border: 1px solid black;
+    
 }
+.show3{
+    border: 1px solid black;
+}
+h4{
+    margin-top: 0px;
+    color: fuchsia;
+    
+}
+h6{
+    text-align: center;
+    
+}
+
+
+
 .mySlides:hover{
     background: #272427;
     transition: all ease 1s;
-    opacity:.1;
+   
+}
+
+.mySlides a{
+    color: black;
+    filter: drop-shadow(0px 5px 5px black);
 }
 .fade{
-    background-color: #303841;
+    background-color:burlywood;
     height: 50px; 
     cursor: pointer;
     margin-bottom: 1px dotted black;
 }
 .fade:hover{
-    background: #272427;
+    background:red;
     transition: all ease 1s;
-    opacity:.1;
-    
 }
 
 
@@ -415,7 +453,7 @@ img{
     border-top-right-radius: 5px;
     grid-column-start: 1;
     grid-column-end: 7;
-    background-color: #272424;
+    background-color:bisque;
     text-align: center;
     
 }
@@ -424,10 +462,13 @@ li{
     text-decoration: none;
     margin:0 1em;  
 }
+#footer li:first-child{
+    color: red;
+}
 
 a{
     text-decoration: none;
-    color: navajowhite;
+    color: black;
     font-size: 10px;
     letter-spacing: 2px;
 
@@ -435,21 +476,19 @@ a{
 
 #github:hover{
     color: white;
-    background-color: black;
 }
 #instagram:hover{
     color: white;
-    background-color: black;
 
 }
 #linkedin:hover{
     color: white;
-    background-color: black;
+    
 
 }
 #footerpara{
     font-size: 10px;
-    color: navajowhite;
+    color: black;
 }
 
 @media screen and (max-width:850px){
@@ -482,8 +521,6 @@ a{
         height: 1200px;
         padding: 4.6em 1.3em;
         transition:all .3s ease-in-out;
-        background-color: bisque;
-        
     }
     nav{
         margin-left: 0;
@@ -507,6 +544,7 @@ a{
         grid-column-start: 1;
         grid-column-end: 7;
         border-bottom: none;
+        border-bottom: 1px dotted black;
         
     }
     #main{
@@ -527,9 +565,8 @@ a{
         font-size: 10px;
         color:burlywood;
         height: 141px;
-        line-height: 310px;
-        border-bottom: 50px solid #453C38; 
-    
+        line-height: 290px;
+        border-bottom: 30px solid #453C38; 
     }
     #div2{
         background-image: url(c.jpg);
@@ -539,8 +576,8 @@ a{
         font-size: 10px;
         color:burlywood;
         height: 141px;
-        line-height: 310px;
-        border-bottom: 50px solid #0C2E33; 
+        line-height: 290px;
+        border-bottom: 30px solid #453C38; 
     
     }
     #div3{
@@ -551,8 +588,8 @@ a{
         font-size: 10px;
         color:burlywood;
         height: 141px;
-        line-height: 310px;
-        border-bottom: 50px solid #475762; 
+        line-height: 290px;
+        border-bottom: 30px solid #453C38;  
         
     }
     #div4{
@@ -563,8 +600,8 @@ a{
         font-size: 10px;
         color:burlywood;
         height: 141px;
-        line-height: 310px;
-        border-bottom: 50px solid #272427; 
+        line-height: 290px;
+        border-bottom: 30px solid #453C38; 
     }
     #div5{
         background-image: url(f.jpg);
@@ -574,8 +611,8 @@ a{
         font-size: 10px;
         color:burlywood;
         height: 141px;
-        line-height: 310px;
-        border-bottom: 50px solid #272427; 
+        line-height: 290px;
+        border-bottom: 30px solid #453C38; 
     }
     #div6{
         background-image: url(i.jpg);
@@ -585,8 +622,8 @@ a{
         font-size: 10px;
         color:burlywood;
         height: 141px;
-        line-height: 310px;
-        border-bottom: 50px solid #272427; 
+        line-height: 290px;
+        border-bottom: 30px solid #453C38; 
     }
     #div7{
         background-image: url(j.jpg);
@@ -596,8 +633,8 @@ a{
         font-size: 10px;
         color:burlywood;
         height: 141px;
-        line-height: 310px;
-        border-bottom: 50px solid #8F7B60; 
+        line-height: 290px;
+        border-bottom: 30px solid #453C38; 
 }
     #div8{
         background-size: cover;
@@ -606,8 +643,8 @@ a{
         font-size: 10px;
         color:burlywood;
         height: 141px;
-        line-height: 310px;
-        border-bottom: 50px solid #5C715E; 
+        line-height: 290px;
+        border-bottom: 30px solid #453C38; 
 }
     #div9{
        background-color:#3E3E3E; 
@@ -617,44 +654,44 @@ a{
         font-size: 10px;
         color:burlywood;
         height: 141px;
-        line-height: 310px;
-        border-bottom: 50px solid #272427; 
-}
+        line-height: 290px;
+        border-bottom: 30px solid #453C38; 
+    }
     #div10{
-    background-color: #405365;
-    background-size: cover;
-    cursor: pointer;
-    text-align:center;
-    font-size: 10px;
-    color:burlywood;
-    height: 141px;
-    line-height: 310px;
-    border-bottom: 50px solid #272427; 
-}
+        background-color: #405365;
+        background-size: cover;
+        cursor: pointer;
+        text-align:center;
+        font-size: 10px;
+        color:burlywood;
+        height: 141px;
+        line-height: 290px;
+        border-bottom: 30px solid #453C38; 
+    }
 
-#div11{
-    background-color: #BAB5A4;
-    background-size: cover;
-    cursor: pointer;
-    text-align:center;
-    font-size: 10px;
-    color:burlywood;
-    height: 141px;
-    line-height: 310px;
-    border-bottom: 50px solid #272427; 
-}
+    #div11{
+        background-color: #BAB5A4;
+        background-size: cover;
+        cursor: pointer;
+        text-align:center;
+        font-size: 10px;
+        color:burlywood;
+        height: 141px;
+        line-height: 290px;
+        border-bottom: 30px solid #453C38; 
+    }
 
-#div12{
-    background-color:#6E665E;
-    background-size: cover;
-    cursor: pointer;
-    text-align:center;
-    font-size: 10px;
-    color:burlywood;
-    height: 141px;
-    line-height: 310px;
-    border-bottom: 50px solid #272427; 
-}
+    #div12{
+        background-color:#6E665E;
+        background-size: cover;
+        cursor: pointer;
+        text-align:center;
+        font-size: 10px;
+        color:burlywood;
+        height: 141px;
+        line-height: 290px;
+        border-bottom: 30px solid #453C38; 
+    }
 
     #aside{
         grid-column-start: 1;
