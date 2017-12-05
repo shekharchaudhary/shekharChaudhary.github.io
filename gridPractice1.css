@@ -22,7 +22,7 @@ nav{
     text-align: center;
     z-index: 100;
     border-bottom: 1px solid silver;
-    background-color: bisque;
+    background-color:#DDDDDD ;
 }
 nav:first-child{
     color: #02C39A;
@@ -42,8 +42,7 @@ nav li a:hover{
 #wrapper{
     transition:all .3s ease-in-out;
     height: 1400px;
-    padding: 4.5em 5.5em;
-    grid-gap: 12px;
+    padding: 3.2em 0em;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows:  5fr 1fr 9fr 4fr 6fr 2fr;
@@ -58,7 +57,8 @@ nav li a:hover{
     grid-column-start: 1;
     grid-column-end: 7;
     color: #000;
-    height: 309px;  
+    height: 309px;
+    background-color: #DDDDDD;
 }
 #demo{
     font-size: 12px;
@@ -69,6 +69,7 @@ nav li a:hover{
     filter: drop-shadow(0px 3px 10px black);
 }
 img{
+    margin-top: 20px;
     height: 143px;
     width: 141px;
     opacity: .5;
@@ -92,32 +93,34 @@ img{
     
     
 #date{
+    height: 161px;
+    background-color:#092A35;
     grid-column-start: 1;
-    grid-column-end: 7;
-    border-bottom: 1px dotted black;
-    
+    grid-column-end: 7;    
 }
 #time{
-    font-size: 20px;
-    line-height: 30px;
-    color:orangered;
+   
+    font-size: 15px;
+    line-height: 100px;
+    color:#ffff;
     z-index: 2;
     animation: zoomIn 3s ease;
-    filter: drop-shadow(0px 4px 2px black);
+    
 }
 #main{
+    margin-top: 12px;
     grid-column-start: 1;
     grid-column-end: 7;
     background-color:;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    grid-gap: 17px;
+    grid-gap: 47px;
+    padding: 0em 1em;
     
 }
 #div1{
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    border-radius: 5px;
     background-image: url(m.jpg);
     background-size: cover;
     cursor:pointer;
@@ -125,30 +128,24 @@ img{
     font-size: 10px;
     color:burlywood;
     height: 141px;
-    line-height: 290px;
-    border-bottom: 30px solid #453C38; 
     animation: bounceInLeft 1s ease;
 }
 
 #div2{
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    border-radius: 5px;
     background-image: url(c.jpg);
     background-size: cover;
     cursor: pointer;
     text-align:center;
     font-size: 10px;
     color:burlywood;
-    height: 141px;
-    line-height: 290px;
-    border-bottom: 30px solid #453C38;  
+    height: 141px; 
     animation: bounceInLeft 2s ease;
     
 
 }
 #div3{
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    border-radius: 5px;
     background-image: url(d.jpg);
     background-size: cover;
     cursor: pointer;
@@ -156,31 +153,25 @@ img{
     font-size: 10px;
     color:burlywood;
     height: 141px;
-    line-height: 290px;
-    border-bottom: 30px solid #453C38; 
     animation: bounceInLeft 3s ease;
     
 
 }
 #div4{
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    border-radius: 5px;
     background-image: url(e.jpg);
     background-size: cover;
     cursor: pointer;
     text-align:center;
     font-size: 10px;
     color:burlywood;
-    height: 141px;
-    line-height: 290px;
-    border-bottom: 30px solid #453C38; 
+    height: 141px; 
     animation: bounceInLeft 4s ease;
     
 
 }
 #div5{
-     border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+     border-radius: 5px;
     background-image: url(f.jpg);
     background-size: cover;
     cursor: pointer;
@@ -188,27 +179,21 @@ img{
     font-size: 10px;
     color:burlywood;
     height: 141px;
-    line-height: 290px;
-    border-bottom: 30px solid #453C38; 
     animation: bounceInRight 5s ease;
 }
 #div6{
-     border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+     border-radius: 5px;
     background-image: url(i.jpg);
     background-size: cover;
     cursor: pointer;
     text-align:center;
     font-size: 10px;
     color:burlywood;
-    height: 141px;
-    line-height: 290px;
-    border-bottom: 30px solid #453C38; 
+    height: 141px; 
     animation: bounceInRight 4s ease;
 }
 #div7{
-     border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+     border-radius: 5px;
     background-image: url(j.jpg);
     background-size: cover;
     cursor: pointer;
@@ -216,13 +201,10 @@ img{
     font-size: 10px;
     color:burlywood;
     height: 141px;
-    line-height: 290px;
-    border-bottom: 30px solid #453C38; 
     animation: bounceInRight 3s ease;
 }
 #div8{
-     border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+     border-radius: 5px;
     background-image: url(k.jpg);
     background-size: cover;
     cursor: pointer;
@@ -230,26 +212,20 @@ img{
     font-size: 10px;
     color:burlywood;
     height: 141px;
-    line-height: 290px;
-    border-bottom: 30px solid #453C38; 
     animation: bounceInRight 2s ease;
 }
 #div9{
-     border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+     border-radius: 5px;
     background-image: url(o.jpg);
     background-size: cover;
     cursor: pointer;
     text-align:center;
     font-size: 10px;
     color:burlywood;
-    height: 141px;
-   line-height: 290px;
-    border-bottom: 30px solid #453C38; 
+    height: 141px; 
 }
 #div10{
-     border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+     border-radius: 5px;
     background-image: url(p.jpg);
     background-size: cover;
     cursor: pointer;
@@ -257,13 +233,11 @@ img{
     font-size: 10px;
     color:burlywood;
     height: 141px;
-    line-height: 290px;
-    border-bottom: 30px solid #453C38; 
+    
 }
 
 #div11{
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    border-radius: 5px;
     background-image: url(q.jpg);
     background-size: cover;
     cursor: pointer;
@@ -271,13 +245,11 @@ img{
     font-size: 10px;
     color:burlywood;
     height: 141px;
-    line-height: 290px;
-    border-bottom: 30px solid #453C38; 
+    
 }
 
 #div12{
-     border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    border-radius: 5px;
     background-image: url(s.jpg);
     background-size: cover;
     cursor: pointer;
@@ -285,10 +257,12 @@ img{
     font-size: 10px;
     color:burlywood;
     height: 141px;
-    line-height: 290px;
-    border-bottom: 30px solid #453C38; 
+     
 }
 #aside{
+
+    margin-top: 35px;
+    padding: 0em 1em;
     grid-column-start: 1;
     grid-column-end: 7;
     color:burlywood;
@@ -296,7 +270,7 @@ img{
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
     display: grid;
-    grid-gap: 30px;
+    grid-gap: 45px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr; 
 }
@@ -309,27 +283,35 @@ h2{
 .slideshow-container1{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr ;
-    grid-gap:10px;
-    color: black;
-    
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap:30px;
+    color: #23033C; 
 }
 
 
 .show1{
-    border: 1px solid black;
-    
+    border-radius: 6px;
+    padding-top: 1em;
+    background-color: #D5F7FF;
+    text-align: center;
 }
 .show2{
-    border: 1px solid black;
+    border-radius: 6px;
+    padding-top: 1em;
+    background-color: #C82586;
+    text-align: center;
     
 }
 .show3{
-    border: 1px solid black;
+    border-radius: 6px;
+    padding-top: 1em;
+    background-color: #FF006C;
+    text-align: center;
+    
 }
 h4{
     margin-top: 0px;
-    color: fuchsia;
+    color: #23033C;
     
 }
 h6{
@@ -362,41 +344,41 @@ h6{
 
 
 #form{
+    margin: 35px 0 15px 0;
+    padding: 0em 1em;
     grid-column-start: 1;
     grid-column-end: 7;
     color: black;
     display: grid;
-    grid-gap:5px;
+    grid-gap:15px;
     grid-template-columns: 1fr 1fr 1fr ;
-    grid-template-rows: 1fr  ;
+    grid-template-rows: 1fr ;
     
 }
 #form1{
-     border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    height: 220px;
+    border-radius: 10px;
     background-image: url(p.jpg);
     background-size: cover;
     background-color: #222831;
-    height: 311px;
     animation: bounceInLeft 4s ease;
     
 }
 #form2{
-     border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+     height: 220px;
+    border-radius: 10px;
     background-image: url(o.jpg);
     background-size: cover;
     background-color: #393E46;
-    height: 311px;
+    animation: bounceInRight 4s ease;
 }
 #form3{
-     border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    background-image: url(s.jpg);
+    padding-top: 1em;
+    height: 203px;
+    border-radius: 10px;
     background-size: cover;
-    background-color: #FD7014;
-    height: 311px;
-    animation: bounceInRight 4s ease;
+    background-color:#1DCD9F;
+    
 }
 
 
@@ -421,7 +403,7 @@ h6{
 }
 #textarea{
     background-color: transparent;
-    height: 150px;
+    height: 60px;
     width: 90%;
     outline: none;
     border: 1px solid black;
@@ -444,7 +426,7 @@ h6{
     font-size: 12px;
 }
 #fbutton:hover{
-    background-color: white;
+    background-color: #23033C;
     color: orangered;
     
 }
@@ -453,7 +435,7 @@ h6{
     border-top-right-radius: 5px;
     grid-column-start: 1;
     grid-column-end: 7;
-    background-color:bisque;
+    background-color:#DDDDDD;
     text-align: center;
     
 }
@@ -493,7 +475,7 @@ a{
 
 @media screen and (max-width:850px){
     #wrapper{
-        padding: 5em 1.2em;
+        padding: 3.2em 0em;
     }
     
     #main{
@@ -501,25 +483,31 @@ a{
         grid-column-end: 7;
         background-color:;
         display: grid;
-        grid-template-columns: 1fr 1fr ;
+        grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr ;
-        grid-gap: 15px;
+        grid-gap: 35px;
     
     }
     #aside{
+        
         grid-gap: 15px;
+        
     }
     #form{
-        grid-template-columns:1fr ;
-        grid-template-rows: 1fr 1fr 1fr ;
+        grid-template-columns:1fr 1fr ;
+        grid-template-rows: 1fr 1fr  ;
         grid-gap: 15px;
     }
-    
+    #form3{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        
+    }
 }
 @media screen and (max-width:550px){
     #wrapper{
         height: 1200px;
-        padding: 4.6em 1.3em;
+        padding: 3.2em 0em;
         transition:all .3s ease-in-out;
     }
     nav{
@@ -535,6 +523,7 @@ a{
         
     }
     #title{
+        height: 329px;
         grid-column-start: 1;
         grid-column-end: 7;
         
@@ -552,10 +541,10 @@ a{
         grid-column-end: 7;
         background-color:;
         display: grid;
-        grid-template-columns: 1fr ;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-        grid-gap: 30px;
-    
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr ;
+        grid-gap: 20px;
+        padding: 0em .5em;
     }
     #div1{
        
@@ -565,8 +554,7 @@ a{
         font-size: 10px;
         color:burlywood;
         height: 141px;
-        line-height: 290px;
-        border-bottom: 30px solid #453C38; 
+        
     }
     #div2{
         background-image: url(c.jpg);
@@ -576,8 +564,7 @@ a{
         font-size: 10px;
         color:burlywood;
         height: 141px;
-        line-height: 290px;
-        border-bottom: 30px solid #453C38; 
+        
     
     }
     #div3{
@@ -588,8 +575,7 @@ a{
         font-size: 10px;
         color:burlywood;
         height: 141px;
-        line-height: 290px;
-        border-bottom: 30px solid #453C38;  
+        
         
     }
     #div4{
@@ -600,8 +586,7 @@ a{
         font-size: 10px;
         color:burlywood;
         height: 141px;
-        line-height: 290px;
-        border-bottom: 30px solid #453C38; 
+       
     }
     #div5{
         background-image: url(f.jpg);
@@ -611,8 +596,7 @@ a{
         font-size: 10px;
         color:burlywood;
         height: 141px;
-        line-height: 290px;
-        border-bottom: 30px solid #453C38; 
+        
     }
     #div6{
         background-image: url(i.jpg);
@@ -622,8 +606,7 @@ a{
         font-size: 10px;
         color:burlywood;
         height: 141px;
-        line-height: 290px;
-        border-bottom: 30px solid #453C38; 
+         
     }
     #div7{
         background-image: url(j.jpg);
@@ -633,8 +616,7 @@ a{
         font-size: 10px;
         color:burlywood;
         height: 141px;
-        line-height: 290px;
-        border-bottom: 30px solid #453C38; 
+        
 }
     #div8{
         background-size: cover;
@@ -643,8 +625,7 @@ a{
         font-size: 10px;
         color:burlywood;
         height: 141px;
-        line-height: 290px;
-        border-bottom: 30px solid #453C38; 
+         
 }
     #div9{
        background-color:#3E3E3E; 
@@ -654,8 +635,7 @@ a{
         font-size: 10px;
         color:burlywood;
         height: 141px;
-        line-height: 290px;
-        border-bottom: 30px solid #453C38; 
+       
     }
     #div10{
         background-color: #405365;
@@ -665,8 +645,7 @@ a{
         font-size: 10px;
         color:burlywood;
         height: 141px;
-        line-height: 290px;
-        border-bottom: 30px solid #453C38; 
+        
     }
 
     #div11{
@@ -677,8 +656,7 @@ a{
         font-size: 10px;
         color:burlywood;
         height: 141px;
-        line-height: 290px;
-        border-bottom: 30px solid #453C38; 
+        
     }
 
     #div12{
@@ -689,16 +667,17 @@ a{
         font-size: 10px;
         color:burlywood;
         height: 141px;
-        line-height: 290px;
-        border-bottom: 30px solid #453C38; 
+        
     }
 
     #aside{
         grid-column-start: 1;
         grid-column-end: 7;
+        padding: 0em .5em;
         
     }
     #form{
+        padding: 0em .5em;
         grid-column-start: 1;
         grid-column-end: 7;
         
@@ -706,12 +685,11 @@ a{
     #footer{
         grid-column-start: 1;
         grid-column-end: 7;
-    
         text-align: center;
     }
     li{
-    display: inline-block;
-    text-decoration: none;
+        display: inline-block;
+        text-decoration: none;
     
     
     }
@@ -723,11 +701,10 @@ a{
     
     #form{
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr ;
     }
     
 }
-
 
 
 
