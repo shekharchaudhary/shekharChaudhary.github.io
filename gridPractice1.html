@@ -6,23 +6,24 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="stylesheet" href="animate.css">
       <link type="text/css" rel="stylesheet" href="gridPractice1.css">
+      <link type="text/css" rel="stylesheet" href="aos.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
         <nav>
             <ul>
                     <li>❖</li>
-                    <li> <a href="gridPractice1.html" class="fa fa-home"></a></li>
-                    <li><a class="fa fa-user" href="https://github.com/shekharchaudhary"  ></a></li>
-                    <li><a href="gridPractice1.html" class="fa fa-code"></a></li>
-                    <li><a href="gridPractice1.html" class=" fa fa-close"></a></li>
+                    <li> <a href="gridPractice1.html" class="fa fa-home" data-aos="fade-up" data-aos-duration="400"></a></li>
+                    <li><a class="fa fa-user"data-aos="fade-up" data-aos-duration="600" href="https://github.com/shekharchaudhary"  ></a></li>
+                    <li><a href="gridPractice1.html" class="fa fa-code" data-aos="fade-up" data-aos-duration="800"></a></li>
+                    <li><a href="gridPractice1.html" class=" fa fa-close" data-aos="fade-up" data-aos-duration="1100"></a></li>
                     
                 </ul>
        
         </nav>
         <div id="wrapper">
             <div id="title">
-                <img src="A1.jpg">
+                <img src="A1.jpg" data-aos="fade-down" data-aos-duration="1500">
                 <p class="site-title">SHEKHAR CHUADHARY</p>
                 <p class="site-description">WebDeveloper & Designer</p>
                 <p id="demo"></p>
@@ -31,22 +32,22 @@
                 <h6 id="time"></p>
             </div>
             <div id="main">
-                <div class="div" id="div1"></div>
-                <div class="div" id="div2"> </div>
-                <div class="div" id="div3"></div>
-                <div class="div" id="div4"></div>
-                <div class="div" id="div5"></div>
-                <div class="div" id="div6"></div>
-                <div class="div" id="div7"></div>
-                <div class="div" id="div8"></div>
-                <div class="div" id="div9"></div>
-                <div class="div" id="div10"></div>
-                <div class="div" id="div11"></div>
-                <div class="div" id="div12"></div>
+                <div class="div" id="div1" data-aos="fade-up" data-aos-duration="900"></div>
+                <div class="div" id="div2" data-aos="fade-up" data-aos-duration="1500"> </div>
+                <div class="div" id="div3" data-aos="fade-up" data-aos-duration="2000"></div>
+                <div class="div" id="div4" data-aos="fade-up" data-aos-duration="2500"></div>
+                <div class="div" id="div5" data-aos="fade-up" data-aos-duration="900"></div>
+                <div class="div" id="div6" data-aos="fade-up" data-aos-duration="1500"></div>
+                <div class="div" id="div7" data-aos="fade-up" data-aos-duration="2000"></div>
+                <div class="div" id="div8" data-aos="fade-up" data-aos-duration="2500"></div>
+                <div class="div" id="div9" data-aos="fade-up" data-aos-duration="900"></div>
+                <div class="div" id="div10" data-aos="fade-up" data-aos-duration="1500"></div>
+                <div class="div" id="div11" data-aos="fade-up" data-aos-duration="2000"></div>
+                <div class="div" id="div12" data-aos="fade-up" data-aos-duration="2500"></div>
             </div>
             <div id="aside">
          <!----1st caontainer of aside  --->
-                <div class="slideshow-container">
+                <div class="slideshow-container" data-aos="fade-up" data-aos-duration="500">
                     <h2>My Projects</h2>
                     <div class="mySlides fade">
                         <a href="https://shekharchaudhary.github.io/seed.html">Responsive Web</a>
@@ -69,23 +70,23 @@
                 </div> 
             <!----1st caontainer of aside  --->
                 <div class="slideshow-container1">
-                    <div class=" show1 fa fa-desktop">
+                    <div class=" show1 fa fa-desktop" data-aos="fade-up" data-aos-duration="500">
                     <p>HTML5,CSS3,javaScript,jQuery,Angular</p>
                         
                     </div>
-                    <div class="show2 fa fa-server">
+                    <div class="show2 fa fa-server" data-aos="fade-up" data-aos-duration="500">
                         <p>HTML5,CSS3,javaScript,jQuery,Angular</p>
                     </div>
-                    <div class="show3 fa fa-cogs ">
+                    <div class="show3 fa fa-cogs " data-aos="fade-up" data-aos-duration="500">
                         <p>HTML5,CSS3,javaScript,jQuery,Angular</p>
                     </div>
                 </div> 
             </div>
             
             <div id="form">
-                <div id="form1"></div>
-                <div id="form2"></div>
-                <div id="form3">
+                <div id="form1" data-aos="fade-up" data-aos-duration="500"></div>
+                <div id="form2" data-aos="fade-up" data-aos-duration="500"></div>
+                <div id="form3" data-aos="fade-up" data-aos-duration="500">
                     <h4>LEAVE YOUR COMMENT</h4>
                     <form>
                         <input id="firstname" placeholder="Name :" type="text" required>
@@ -117,7 +118,12 @@
         </div>
        
         <script src="jquery-3.2.1.js"></script>
-        <script type="text/javascript" src="gridPractice1.js"></script>
+        <script type="text/javascript" src="gridPractice1.js">
+        </script>
+        <script type="text/javascript" src="aos.js"></script>
+        <script type="text/javascript" >
+            AOS.init();
+        </script> 
     </body>
 </html>
 
