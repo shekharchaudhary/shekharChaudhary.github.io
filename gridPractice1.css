@@ -74,9 +74,7 @@ img{
     width: 141px;
     opacity: .5;
     z-index: -1;
-    animation: bounceInDown 4s ease;
     
-
 }
 .site-title{
     color:#000;
@@ -128,7 +126,7 @@ img{
     font-size: 10px;
     color:burlywood;
     height: 141px;
-    animation: bounceInLeft 1s ease;
+    
 }
 
 #div2{
@@ -140,7 +138,7 @@ img{
     font-size: 10px;
     color:burlywood;
     height: 141px; 
-    animation: bounceInLeft 2s ease;
+   
     
 
 }
@@ -153,7 +151,7 @@ img{
     font-size: 10px;
     color:burlywood;
     height: 141px;
-    animation: bounceInLeft 3s ease;
+    
     
 
 }
@@ -166,7 +164,7 @@ img{
     font-size: 10px;
     color:burlywood;
     height: 141px; 
-    animation: bounceInLeft 4s ease;
+    
     
 
 }
@@ -179,7 +177,7 @@ img{
     font-size: 10px;
     color:burlywood;
     height: 141px;
-    animation: bounceInRight 5s ease;
+   
 }
 #div6{
      border-radius: 5px;
@@ -190,7 +188,7 @@ img{
     font-size: 10px;
     color:burlywood;
     height: 141px; 
-    animation: bounceInRight 4s ease;
+    
 }
 #div7{
      border-radius: 5px;
@@ -201,7 +199,7 @@ img{
     font-size: 10px;
     color:burlywood;
     height: 141px;
-    animation: bounceInRight 3s ease;
+    
 }
 #div8{
      border-radius: 5px;
@@ -212,7 +210,7 @@ img{
     font-size: 10px;
     color:burlywood;
     height: 141px;
-    animation: bounceInRight 2s ease;
+   
 }
 #div9{
      border-radius: 5px;
@@ -677,11 +675,16 @@ a{
         
     }
     #form{
-        padding: 0em .5em;
+        padding: 0em .em;
         grid-column-start: 1;
         grid-column-end: 7;
+        display: grid;
+        grid-template-columns:1fr;
+        grid-template-rows: 1fr 1fr ;
+        
         
     }
+    
     #footer{
         grid-column-start: 1;
         grid-column-end: 7;
@@ -695,14 +698,11 @@ a{
     }
     #aside{
         grid-template-columns: 1fr ;
-    grid-template-rows: 1fr 1fr;
+        grid-template-rows: 1fr 1fr ;
         
     }
     
-    #form{
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr ;
-    }
+    
     
 }
 
