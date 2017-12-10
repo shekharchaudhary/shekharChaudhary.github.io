@@ -20,7 +20,6 @@ h2{
 h4{
     margin-top: 0px;
     color: #ffffff;
-    
 }
 h6{
     text-align: center;
@@ -382,20 +381,17 @@ img{
 
 
 .show1{
-    border-radius: 6px;
     padding-top: 1em;
     background-color: #777;
     text-align: center;
 }
 .show2{
-    border-radius: 6px;
     padding-top: 1em;
     background-color: #777;
     text-align: center;
     
 }
 .show3{
-    border-radius: 6px;
     padding-top: 1em;
     background-color: #777;
     text-align: center;
@@ -519,7 +515,7 @@ li{
     margin:0 1em;  
 }
 #footer li:first-child{
-    color: red;
+    color:#005691 ;
 }
 
 a{
@@ -531,14 +527,14 @@ a{
 }
 
 #github:hover{
-    color: red;
+    color: #005691;
 }
 #instagram:hover{
-    color: red;
+    color: #005691;
 
 }
 #linkedin:hover{
-    color: red;
+    color: #005691;
     
 
 }
