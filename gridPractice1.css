@@ -5,7 +5,7 @@ html {
 	-ms-text-size-adjust:100%;
     -o-text-size-adjust:100%;
     transition:all .3s ease-in-out;
-    background-color:#E9DCBE;
+    background-color:#393E46;
 }
 
 body {
@@ -34,7 +34,7 @@ nav{
     text-align: center;
     z-index: 100;
     border-bottom: 1px solid silver;
-    background-color:#000 ;
+    background-color:#343434;
 }
 nav:first-child{
     color: #02C39A;
@@ -46,9 +46,7 @@ nav li a{
 nav li a:hover{
     color:#02C39A ;
 }
-.div p {
-     filter: drop-shadow(0px 5px 5px black);
-}
+
 
 
 #wrapper{ 
@@ -71,8 +69,8 @@ nav li a:hover{
     grid-column-end: 7;
     color: #000;
     height: 309px;
-    background-color: #fff;
     align-content: center;
+    background-color: ;
 }
 #demo{
     font-size: 12px;
@@ -80,7 +78,7 @@ nav li a:hover{
     width: 50%;
     margin-left: 25%;
     text-align: center;
-    filter: drop-shadow(0px 3px 10px darkblue);
+    
 }
 img{
     margin-top: 20px;
@@ -90,7 +88,7 @@ img{
     
 }
 .site-title{
-    color:#444;
+    color:#000;
     font-size: 14px;
     -webkit-animation: zoomIn 3s ease;
     -o-animation: zoomIn 3s ease;
@@ -100,9 +98,9 @@ img{
 
 .site-description{
     text-align: center;
-    color:#02C39A ;
+    color:#000 ;
     font-size: 10px;
-    background-color: black;
+    background-color: #F96D00;
     width: 10%;
     position:relative;
     left:45%;
@@ -116,7 +114,7 @@ img{
     
 #date{
     height: 161px;
-    background-color:#000000;
+    background-color:;
     grid-column-start: 1;
     grid-column-end: 7;    
 }
@@ -124,7 +122,7 @@ img{
     font-family:'Roboto',monospace;
     font-size: 15px;
     line-height: 100px;
-    color:#ffff;
+    color:#000000;
     z-index: 2;
     -webkit-animation: zoomIn 3s ease;
     -o-animation: zoomIn 3s ease;
@@ -141,7 +139,8 @@ img{
     grid-template-rows: 1fr 1fr 1fr;
     grid-gap: 27px;
     padding: 0em 1em;
-    
+    width: 71%;
+    margin: 0 auto;
 }
 #h3{
     font-size: 40px;
@@ -318,7 +317,6 @@ img{
      
 }
 #aside{
-    margin-top: 35px;
     padding: 0em 1em;
     grid-column-start: 1;
     grid-column-end: 7;
@@ -330,6 +328,8 @@ img{
     grid-gap: 45px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr; 
+    width: 71%;
+    margin: 35px auto;
 }
 #asideHeadig{
     background-color: olive;
@@ -376,81 +376,31 @@ img{
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     grid-gap:30px;
-    color: #000; 
+    color: orangered; 
 }
 
 
-.show1{
+.show1,.show2,.show3{
     padding-top: 1em;
-    background-color: #777;
     text-align: center;
-}
-.show2{
-    padding-top: 1em;
-    background-color: #777;
-    text-align: center;
-    
-}
-.show3{
-    padding-top: 1em;
-    background-color: #777;
-    text-align: center;
-    
+    background-color: #222;
 }
 
 
 #form{
-    margin: 15px 0 15px 0;
+    margin: ;
     padding: 0em 1em;
-    grid-column-start: 1;
-    grid-column-end: 7;
+    grid-column-start: 2;
+    grid-column-end: 6;
     color: black;
     display: grid;
     grid-gap:15px;
-    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-columns:1fr ;
     grid-template-rows: 1fr ;
     
 }
-#form1{
-    height: 215px;
-    border-radius: 10px;
-    background-color: #709053;
-    -webkit-animation: bounceInLeft 4s ease;
-    -o-animation: bounceInLeft 4s ease;
-    -ms-animation: bounceInLeft 4s ease;
-    animation: bounceInLeft 4s ease;
-    z-index: 200;
-    
-}
-#form1 img{
-    width: 100%;
-    height: 100%;
-    position: relative;
-    margin-top: 0px;
-    opacity: .5;
-   
-}
-
-#form2{
-    height: 215px;
-    background-color:yellow;
-    -webkit-animation: bounceInLeft 4s ease;
-    -o-animation: bounceInLeft 4s ease;
-    -ms-animation: bounceInLeft 4s ease;
-    animation: bounceInRight 4s ease;
-    z-index: 200px;
-}
-
-#form2 img{
-    position: relative;
-    width: 100%;
-    height: 100%;
-    margin-top: 0px;
-    opacity: .5;
-    
-}
-
 #form3{
+    margin-bottom: 20px;
     padding-top: 1em;
     background-size: cover;
     background-color:#111;
@@ -506,7 +456,7 @@ img{
 #footer{
     grid-column-start: 1;
     grid-column-end: 7;
-    background-color:#000;
+    background-color:#343434;
     text-align: center; 
 }
 li{
@@ -563,14 +513,9 @@ a{
         grid-gap: 15px;
         
     }
-    #form{
-        grid-template-columns:1fr 1fr ;
-        grid-template-rows: 1fr 1fr  ;
-        grid-gap: 15px;
-    }
+    
     #form3{
-        grid-column-start: 1;
-        grid-column-end: 3;
+        margin-bottom: 20px;
         
     }
 }
@@ -603,8 +548,6 @@ a{
         grid-column-start: 1;
         grid-column-end: 7;
         border-bottom: none;
-        border-bottom: 1px dotted black;
-        
     }
     #main{
         grid-column-start: 1;
@@ -613,8 +556,9 @@ a{
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr ;
-        grid-gap: 20px;
-        padding: 0em .5em;
+        grid-gap:20px;
+        padding: 0em .2em;
+        width: 95%;
     }
     #div1{
        
@@ -752,49 +696,15 @@ a{
         grid-column-end: 7;
         display: grid;
         grid-gap: 15px;
-        grid-template-columns:1fr 1fr;
-        grid-template-rows: 1fr 1fr ;
+        grid-template-columns: 1fr;
+        grid-template-rows:  1fr ;
         
         
     }
-    #form1{
-        height: 155px;
-        border-radius: 10px;
-        background-color: #709053;
-        animation: bounceInLeft 4s ease;
-        z-index: 200;
-    
-}
-    #form1 img{
-        width: 100%;
-        height: 100%;
-        border-radius: 10px;
-        position: relative;
-        margin-top: 0px;
-        opacity: .5;
-   
-}
-    
-    #form2{
-        height: 155px;
-        border-radius: 10px;
-        background-color:yellow;
-        animation: bounceInRight 4s ease;
-        z-index: 200px;
-}
-
-    #form2 img{
-        border-radius: 10px;
-        position: relative;
-        width: 100%;
-        height: 100%;
-        margin-top: 0px;
-        opacity: .5;
-    
-}
     
     #form3{
         height: 200px;
+        margin-bottom: 20px;
     }
     
     #footer{
@@ -810,14 +720,15 @@ a{
     }
     #aside{
         grid-template-columns: 1fr ;
-        grid-template-rows: 1fr 1fr ;
+        grid-template-rows:1fr ;
+        width: 95%;
         
     }
     .site-description{
     text-align: center;
-    color:#02C39A ;
+    color:#000 ;
     font-size: 10px;
-    background-color: black;
+    background-color: #F96D00;
     width: 30%;
     position:relative;
     left:34%;
@@ -826,6 +737,5 @@ a{
     }
     
 }
-
 
 
