@@ -1,4 +1,4 @@
-var myString =  "I am a front-end webDeveloper with experience of Developing & Designing highend user friendly Web Application/Mobile Application/UI Design";
+var myString =  "I am a front-end webDeveloper with experience of Developing & Designing highend user friendly Web Application/Mobile Application/web UI";
     var myArray = myString.split("");
     var loopTimer;
 
